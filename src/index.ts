@@ -5,7 +5,12 @@ import { Routes } from "./routes";
 import * as cors from 'cors'
 
 export const storage = {
-    users: []
+    lists: [
+        {
+            "id": 1,
+            "url": "https://guarded-temple-90330.herokuapp.com/users"
+        }
+    ]
 }
 
 export const srcPath = __dirname
