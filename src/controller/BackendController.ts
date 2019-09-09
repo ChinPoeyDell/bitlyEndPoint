@@ -10,7 +10,10 @@ export class BackendController {
         const data = request.body
         storage.lists.push({
             id: storage.lists.length + 1,
-            url: data.url
+            originalUrl: data.originalUrl,
+            // shortenUrl: data.shortenUrl
         })
+
+        response.sendStatus(201)
     }
 }

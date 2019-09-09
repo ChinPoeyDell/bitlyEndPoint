@@ -15,7 +15,7 @@ export const Routes = [{
 },
 {
     method: "post",
-    route: "/lists",
+    route: "/addLists",
     controller: BackendController,
     action: "newUrl"
 }];

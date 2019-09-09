@@ -8,7 +8,8 @@ export const storage = {
     lists: [
         {
             "id": 1,
-            "url": "https://guarded-temple-90330.herokuapp.com/users"
+            "originalUrl": "https://guarded-temple-90330.herokuapp.com/users",
+            // "shortenUrl": "https://agitated-goodall-bd026b.netlify.com/link/1"
         }
     ]
 }
