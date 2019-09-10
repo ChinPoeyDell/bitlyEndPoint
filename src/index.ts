@@ -9,7 +9,7 @@ export const storage = {
         {
             "id": 1,
             "originalUrl": "https://guarded-temple-90330.herokuapp.com/users",
-            // "shortenUrl": "https://agitated-goodall-bd026b.netlify.com/link/1"
+            "shortenUrl": "https://agitated-goodall-bd026b.netlify.com/link/1"
         }
     ]
 }

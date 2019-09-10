@@ -11,7 +11,7 @@ export class BackendController {
         storage.lists.push({
             id: storage.lists.length + 1,
             originalUrl: data.originalUrl,
-            // shortenUrl: data.shortenUrl
+            shortenUrl: "https://salty-taiga-86575.herokuapp.com/" + (storage.lists.length + 1)
         })
 
         response.sendStatus(201)
